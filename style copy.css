@@ -1,0 +1,274 @@
+/* 在CSS裡面跟設定無關的都必須註解 Ctrl + / */
+
+/* css選擇器 */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', 'sans-serif';
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+}
+
+.slides {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    color: aliceblue;
+    scroll-snap-align: start;
+
+}
+
+.slides img {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+
+.slides h2 {
+    font-size: 70px;
+    font-weight: 600;
+    max-width: 650px;
+}
+
+.slides1 {
+    background-image: url("image/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+.slides2 {
+    background: url("image/pexels-kaichieh-chan-2771807.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 40px;
+
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+    position: relative;
+
+}
+
+.slides3 {
+    background: url("image/ANCIENT\ BOOK.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: left;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 40px;
+
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+    position: relative;
+
+}
+
+.slides4 {
+    background-image: url("image/temple.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: left;
+    height: 800px;
+    /* 視您圖片的高度而定 */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 150px;
+
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+    position: relative;
+}
+
+.slides5 {
+    background-image: url("image/leather.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: left;
+    height: 800px;
+    /* 視您圖片的高度而定 */
+
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 160px;
+
+    display: inline-block;
+    text-indent: 2em;
+
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+.slides6 {
+    background-image: url("image/book\ cover.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: left;
+    height: 800px;
+    /* 視您圖片的高度而定 */
+    filter: blur(0.1px);
+
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 250px;
+
+    display: inline-block;
+    text-indent: 2em;
+
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+.slides7 {
+    background-image: url("image/temple2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: left;
+    height: 800px;
+
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 200px;
+
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+.slides8 {
+    background-image: url("image/god.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: left;
+    height: 800px;
+
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 200px;
+
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+.slides9 {
+    background-image: url("image/incense.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: left;
+    height: 800px;
+
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 200px;
+
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+.slides10 {
+    background-image: url("image/black.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: left;
+    height: 800px;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 250px;
+
+    font-size: 72px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+
+.slides13 {
+    background-image: url("image/black.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: left;
+    height: 800px;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 250px;
+
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+.sss {
+    background-image: url("image/black.jpg");
+    height: 30px;
+
+    font-size: 12px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 2px #d642db79;
+}
